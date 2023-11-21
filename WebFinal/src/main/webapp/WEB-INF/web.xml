@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" 
+id="WebApp_ID" version="3.0">
+
+	<servlet>
+		<servlet-name>Autenticador</servlet-name>
+		<servlet-class>controller.Autenticador</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Cadastro</servlet-name>
+		<servlet-class>controller.Cadastro</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Remover</servlet-name>
+		<servlet-class>controller.Remover</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Listar</servlet-name>
+		<servlet-class>controller.Listar</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>ListaView</servlet-name>
+		<jsp-file>/view/Listar.jsp</jsp-file>
+	</servlet>
+
+</web-app>

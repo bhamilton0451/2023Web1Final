@@ -1,0 +1,82 @@
+body {
+    background-image: url(./imagens/menu.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.imagens {
+    display: none;
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(223, 173, 65);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: -10px;
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(223, 173, 65);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    left: 300px;
+
+}
+h3{
+    font-size: 20px;
+    color: rgb(223, 173, 65);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    left: 300px;
+}
+
+select {
+    margin-bottom: 10px;
+    width: 450px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: px;
+    margin-top: -20px;
+}
+
+select {
+    font-size: 20px;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+input[type="submit"] {
+    font-size: 20px;
+    width: 100px;
+    align-content: center;
+    height: default;
+    padding: 0px;
+    margin-bottom: 100px;
+}
